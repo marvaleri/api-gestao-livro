@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de Livros</h1>
+        </header>
+        <div class="form-container">
+            <h2>Cadastrar Livro</h2>
+            <input type="text" id="nameInput" placeholder="Nome">
+            <input type="text" id="categoriaInput" placeholder="Categoria">
+            <input type="text" id="anoInput" placeholder="Ano">
+            <input type = "text" id="imageInput" accept="image/*" placeholder="URL da Imagem">
+            <button onclick="addBook()">Adicionar Livro</button>
+        </div>
+
+        <section id="cardContainer" class="cardContainer"></section>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
